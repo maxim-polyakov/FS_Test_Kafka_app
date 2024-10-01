@@ -1,0 +1,7 @@
+MainApp/bin/*
+MainApp/obj/*
+MessageBroker.Kafka.Lib/bin/*
+MessageBroker.Kafka.Lib/obj/*
+NameService/bin/*
+NameService/obj/*
+.vs/*
