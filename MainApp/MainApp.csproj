@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DB_package\DB_package.csproj" />
     <ProjectReference Include="..\MessageBroker.Kafka.Lib\MessageBroker.Kafka.Lib.csproj" />
   </ItemGroup>
 

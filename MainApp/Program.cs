@@ -2,6 +2,7 @@
 using System.Threading;
 using MessageBroker.Kafka.Lib;
 using System.Threading.Tasks;
+using DB_package;
 
 namespace MainApp
 {
@@ -51,6 +52,9 @@ namespace MainApp
 
         public static void GetBoyNameHandler(string msg)
         {
+           
+            DB_Communication dbc = new DB_Communication();
+            dbc.insert_to(msg, "messtorage.storage");
             Console.WriteLine($"Boy name {msg} is recommended");
         }
 

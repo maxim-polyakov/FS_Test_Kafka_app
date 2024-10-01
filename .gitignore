@@ -4,4 +4,6 @@ MessageBroker.Kafka.Lib/bin/*
 MessageBroker.Kafka.Lib/obj/*
 NameService/bin/*
 NameService/obj/*
+DB_package/bin/*
+DB_package/obj/*
 .vs/*
