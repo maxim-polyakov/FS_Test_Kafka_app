@@ -1,9 +1,7 @@
-MainApp/bin/*
-MainApp/obj/*
-MessageBroker.Kafka.Lib/bin/*
-MessageBroker.Kafka.Lib/obj/*
-NameService/bin/*
-NameService/obj/*
+Consumer/bin/*
+Consumer/obj/*
+Producer/bin/*
+Producer/obj/*
 DB_package/bin/*
 DB_package/obj/*
 .vs/*
